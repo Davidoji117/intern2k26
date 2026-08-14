@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var message = document.getElementById("message").value.trim();
 
     if (!name || !phone || !message) {
-      formStatus.style.color = "#c8102e";
+      formStatus.style.color = "#b0566a";
       formStatus.textContent = "Please fill in all required fields.";
       return;
     }
